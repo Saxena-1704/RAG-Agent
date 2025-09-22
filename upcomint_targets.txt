@@ -1,0 +1,14 @@
+----------------31/08/2025-----------------
+Today I made an rag agent and fed it with the Knowledge of stok market from wikipedia. I used context
+based engineering. The model performed decently. But some inconsistencies were there. 
+Now in the next session I will experiment with AI based chunking.
+There is one more problem in my agent. Everytime I run the script, it deletes the existing db(otherwise it was creating problems)
+and creates a new db and creates chunks everytime which is very inefficient. I would write such a code that
+would store the chunks in the database one time and only retrieve it when the user asks a questions
+-----*-----*-----*-----*-----*-----*-----*-----
+
+----------------1/09/2025--------------------
+Today I solved the problem of db creating everytime (which I mentioned in the last session)
+Skipping the AI based chunking (also mentioned in the last sesion) for now because it is 
+computationally expensive on free tier of llm.
+-----*-----*-----*-----*-----*-----*-----*-----
